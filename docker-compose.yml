@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  app:
+    build: .
+    command: node app.js
+    ports:
+      - 5100:5100
